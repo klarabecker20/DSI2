@@ -4,7 +4,7 @@ class ConexaoMysql {
     protected $mysqli;
     protected $server = '127.0.0.1'; //Endereço do servidor
     protected $user = 'root'; //Usuario que acessa o banco
-    protected $pass = '12345'; //Senha do usuário
+    protected $pass = '202211276024'; //Senha do usuário
     protected $dataBase = 'dsi'; //Nome da base de dados
 
     /** Informa o TOTAL de qualquer registro afetado
@@ -12,7 +12,7 @@ class ConexaoMysql {
     public $total = 0;
 
     /** Informa o ultimo id do registro inserido
-      na base de dados */
+      na base de dados *
     public $lastInsertId = 0; //Retorna a chave primária do registro
 
     public function getConnection(){
